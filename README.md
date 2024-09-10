@@ -22,7 +22,7 @@ To run this project, you will need to install the following dependencies:
 pip install tensorflow opencv-python numpy matplotlib
 ### Clone the repository:
 
-git clone https://github.com/Ayoub-fox/Train_SSDmodelOnCustomDataset.git
+git clone https://github.com/Ayoub-fox/Train_SSDmodelOnCustomDataset.git<br>
 cd ssd-mobilenet-yellowfin-tuna
 Make sure to install other required libraries by following the steps on the notebook
 
@@ -51,10 +51,7 @@ Number of Epochs: num_epochs_value
 Learning Rate: learning_rate_value
 Training Command is on the .ypnb file copy it and paste it into your command prompt
 
-![Capture1](https://github.com/user-attachments/assets/b1a77ff0-b86b-4cd4-81fa-3db5da814367)
-
-![Capture2](https://github.com/user-attachments/assets/df0e943b-0a65-4bb8-bd10-a3f30e7c9253)
-
+![Capture1](https://github.com/user-attachments/assets/b1a77ff0-b86b-4cd4-81fa-3db5da814367) ![Capture2](https://github.com/user-attachments/assets/df0e943b-0a65-4bb8-bd10-a3f30e7c9253)
 
 ## Evaluation
 Once the model is trained, evaluate it on the test dataset. Performance metrics include:
