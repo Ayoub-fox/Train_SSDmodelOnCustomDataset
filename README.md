@@ -23,7 +23,7 @@ pip install tensorflow opencv-python numpy matplotlib
 ### Clone the repository:
 
 git clone https://github.com/Ayoub-fox/Train_SSDmodelOnCustomDataset.git<br>
-cd ssd-mobilenet-yellowfin-tuna
+cd ssd-mobilenet-yellowfin-tuna<br>
 Make sure to install other required libraries by following the steps on the notebook
 
 ## Dataset
