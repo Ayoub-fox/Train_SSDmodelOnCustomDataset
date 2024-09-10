@@ -29,8 +29,8 @@ Make sure to install other required libraries by following the steps on the note
 ## Dataset
 For this project, the dataset consists of images of Yellowfin tuna. The data is divided into two sets:
 
-Training Set: Used to train the model.
-Testing Set: Used to evaluate model performance.
+Training Set: Used to train the model.<br>
+Testing Set: Used to evaluate model performance.<br>
 Annotations for each image are provided in the form of bounding boxes. The dataset follows the Pascal VOC format for object detection.
 
 ## Training Process
@@ -38,17 +38,17 @@ The SSD MobileNet architecture is a lightweight deep neural network designed for
 
 ### To train the model:
 
-Pre-process the images: Resize the images and annotations to the required input size.
-Load the SSD MobileNet architecture from TensorFlow's Object Detection API.
-Start training using the pre-processed data.
-Model Architecture:
-Base Network: MobileNet
-Detection Method: SSD (Single Shot MultiBox Detector)
-Training parameters include:
+Pre-process the images: Resize the images and annotations to the required input size.<br>
+Load the SSD MobileNet architecture from TensorFlow's Object Detection API.<br>
+Start training using the pre-processed data.<br>
+Model Architecture:<br>
+Base Network: MobileNet<br>
+Detection Method: SSD (Single Shot MultiBox Detector)<br>
+Training parameters include:<br>
 
-Batch Size: batch_size_value
-Number of Epochs: num_epochs_value
-Learning Rate: learning_rate_value
+Batch Size: batch_size_value<br>
+Number of Epochs: num_epochs_value<br>
+Learning Rate: learning_rate_value<br>
 Training Command is on the .ypnb file copy it and paste it into your command prompt
 
 ![Capture1](https://github.com/user-attachments/assets/b1a77ff0-b86b-4cd4-81fa-3db5da814367) ![Capture2](https://github.com/user-attachments/assets/df0e943b-0a65-4bb8-bd10-a3f30e7c9253)
@@ -56,8 +56,8 @@ Training Command is on the .ypnb file copy it and paste it into your command pro
 ## Evaluation
 Once the model is trained, evaluate it on the test dataset. Performance metrics include:
 
-mAP (Mean Average Precision): Measures the accuracy of the model in detecting objects.
-Precision and Recall: To assess the model's ability to detect Yellowfin tuna accurately.
+mAP (Mean Average Precision): Measures the accuracy of the model in detecting objects.<br>
+Precision and Recall: To assess the model's ability to detect Yellowfin tuna accurately.<br>
 Evaluation Command: 
 python path_to_your_TensorFlow_models/research/object_detection/model_main_tf2.py \
 --model_dir=path_to_your_model_directory/my_ssd_mobnet_640 \
