@@ -78,5 +78,5 @@ mAP Score: 0.37
 The SSD MobileNet implementation provided an efficient and accurate solution for detecting Yellowfin tuna in images, showcasing its potential in addressing challenges related to sustainable fishing practices. The model's speed and low computational cost make it ideal for real-time monitoring systems in resource-constrained environments.
 
 
-Contact
+## Contact
 For any inquiries or collaboration opportunities, please contact: ayoubbenachour77@gmail.com
