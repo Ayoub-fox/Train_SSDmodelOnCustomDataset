@@ -79,6 +79,4 @@ The SSD MobileNet implementation provided an efficient and accurate solution for
 
 
 Contact
-For any inquiries or collaboration opportunities, please contact:
-
-Your Name: ayoubbenachour77@gmail.com
+For any inquiries or collaboration opportunities, please contact: ayoubbenachour77@gmail.com
